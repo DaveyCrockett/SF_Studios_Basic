@@ -1,0 +1,177 @@
+/* base css */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+.navbar {
+    font-size: 16pt;
+}
+
+.navbar-brand {
+    width: 9%;
+}
+
+.navbar-brand img {
+    width: 100%;
+}
+
+.main-container {
+    background-color: #7b6dc5;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 85%;
+}
+
+
+.container-fluid {
+    width: 60%;
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-expand-lg {
+        font-size: 12pt;
+    }
+
+    .container-fluid {
+        width: 80%;
+    }
+
+    .main-container {
+        width: 100%;
+        height: 100%;
+        padding-top: 100px;
+    }
+
+    .navbar-brand {
+        width: 25%;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        text-align: center;
+        background-color: #7b6dc5;
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .forms-container {
+        background-color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        box-shadow: 10px 10px 50px black;
+    }
+
+    .login-title {
+        text-align: center;
+        color: #7b6dc5;
+    }
+
+    #login-logo {
+        width: 25%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .login-form {
+        text-align: center;
+    }
+
+    #forgot-password {
+        display: block;
+    }
+
+    #email_log_in {
+        margin-top: 20px;
+        line-height: 24pt;
+        background-color: #7b6dc5;
+        color: white;
+    }
+    
+    #email_log_in:focus {
+        color: #7b6dc5;
+        background-color: black;
+    }
+
+    #password_log_in {
+        margin-top: 20px;
+        line-height: 24pt;
+        background-color: #7b6dc5;
+        color: white;
+    }
+
+    #password_log_in:focus {
+        color: #7b6dc5;
+        background-color: black;
+    }
+
+    #email_log_in::placeholder {
+        color: white;
+    }
+
+    #email_log_in:focus::placeholder{
+        color: #7b6dc5;
+    }
+
+    #password_log_in::placeholder {
+        color: white;
+    }
+
+    #password_log_in:focus::placeholder{
+        color: #7b6dc5;
+    }
+
+    #forgot-password {
+        font-size: 10pt;
+        text-align: left;
+        margin-left: 45px;
+        text-decoration: none;
+        color: #7b6dc5;
+    }
+
+    .account-btn {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+    }
+
+    .btn {
+        line-height: 1;
+    }
+
+    .create-container a {
+        font-size: 10pt;
+        color: #7b6dc5;
+        text-decoration: none;
+    }
+
+    .btn-success {
+        color: white;
+        background-color: #7b6dc5;
+        border-color: black;
+    }
+}
+
+/* Log In CSS */

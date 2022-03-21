@@ -1,0 +1,100 @@
+
+@media screen and (max-width: 375px) {
+    #first_name {
+        margin-top: 20px;
+        line-height: 24pt;
+        background-color: #7b6dc5;
+        color: white;
+    }
+
+    #first_name:focus {
+        color: #7b6dc5;
+        background-color: black;
+    }
+
+    #first_name::placeholder {
+        color: white;
+    }
+
+    #last_name {
+        margin-top: 20px;
+        line-height: 24pt;
+        background-color: #7b6dc5;
+        color: white;
+    }
+
+    #last_name:focus {
+        color: #7b6dc5;
+        background-color: black;
+    }
+
+    #last_name::placeholder {
+        color: white;
+    }
+
+    #create_email {
+        margin-top: 20px;
+        line-height: 24pt;
+        background-color: #7b6dc5;
+        color: white;
+    }
+
+    #create_email:focus {
+        color: #7b6dc5;
+        background-color: black;
+    }
+
+    #create_email::placeholder{
+        color: white;
+    }
+
+    #create_password {
+        margin-top: 20px;
+        line-height: 24pt;
+        background-color: #7b6dc5;
+        color: white;
+    }
+
+    #create_password:focus {
+        color: #7b6dc5;
+        background-color: black;
+    }
+
+    #create_password::placeholder {
+        color: white;
+    }
+
+    #confirm_password {
+        margin-top: 20px;
+        line-height: 24pt;
+        background-color: #7b6dc5;
+        color: white;
+    }
+
+    #confirm_password:focus {
+        color: #7b6dc5;
+        background-color: black;
+    }
+
+    #confirm_password::placeholder {
+        color: white;
+    }
+
+    .submit-container {
+        display: flex;
+        justify-content: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-top: 25px;
+    }
+
+    .btn {
+        line-height: 1;
+    }
+
+    .btn-success {
+        color: white;
+        background-color: #7b6dc5;
+        border-color: black;
+    }
+}

@@ -1,0 +1,31 @@
+/* about.html CSS */
+@media screen and (max-width: 375px) {
+   .about-title {
+       text-align: center;
+       padding-top: 50px;
+       padding-bottom: 50px;
+   } 
+   
+   .about-info {
+       text-indent: 50px;
+       line-height: 24pt;
+       padding-left: 25px;
+       padding-right: 25px;
+       text-align: justify;
+   }
+
+   .about-container {
+       background-color: white;
+       width: 80%;
+       margin-left: auto;
+       margin-right: auto;
+       color: #7b6dc5;
+       box-shadow: 10px 10px 50px black;
+       padding-bottom: 50px;
+   }
+   
+   .main-container {
+       padding-bottom: 50px;
+       height: auto;
+   }
+}
